@@ -28,7 +28,15 @@ We continue to grow and improve to make your world safer every day!`,
 The main principles of an effective fire protection system are reliable equipment, timely threat detection, and professional maintenance at every stage of operation.`,
     why_title: "Why Choose us",
     why_text: `MTECH FIRE ASIA LLC is your reliable partner in fire safety and fire protection automation. <br><br>
-We offer innovative integrated solutions that guarantee the protection of facilities of any scale and purpose — from industrial enterprises and energy sector facilities to hotels, government institutions, and modern residential complexes. Each project is designed with consideration of the building’s features, regulatory requirements, and the client’s individual needs.`,
+We offer innovative integrated solutions that guarantee the protection of facilities of any scale and purpose — from industrial enterprises and energy sector facilities to hotels, government institutions, and modern residential complexes. Each project is designed with consideration of the building’s features, regulatory requirements, and the client’s individual needs. <br><br>
+With MTECH FIRE ASIA, you receive not only modern equipment from leading global manufacturers, but also the confidence that your facility is under reliable protection 24/7. <br><br>
+
+Our company installs equipment from top manufacturers: <br><br>
+• Kitchen fire suppression system Lehavot LWT (UL 300 standard); <br>
+• Gas fire suppression system by Pemall USA; <br>
+• Fine water mist protection systems by Fogteg (Germany); <br>
+• Fire alarm systems MTECH UL 864 10th Edition; <br>
+• Aspirating fire detection systems Protec. <br>`,
     projects_title: "Our Projects",
     project_1: "Center of Islamic Civilization, Tashkent",
     project_2: "Ministry of Energy Building, Tashkent",
@@ -140,8 +148,17 @@ Biz har kuni sizning dunyoingizni yanada xavfsiz qilish uchun o‘sishda va rivo
     principles_text: `Xavfsizlik, ishonchlilik, qo‘llab-quvvatlash
 Samarali yong‘in xavfsizligi tizimining asosiy tamoyillari — uskunaning ishonchliligi, xavf-xatarlarni o‘z vaqtida aniqlash va foydalanishning barcha bosqichlarida malakali kuzatuvdir.`,
      why_title: "Nima uchun bizni tanlaydilar",
-    why_text: `“MTECH FIRE ASIA” MChJ — yong‘in xavfsizligi va yong‘inga qarshi himoya tizimlarini avtomatlashtirish sohasidagi ishonchli hamkoringiz. <br><br>
-Biz har qanday miqyosdagi va maqsaddagi obyektlar uchun innovatsion kompleks yechimlarni taklif qilamiz — sanoat korxonalari va yoqilg‘i-energetika obyektlaridan tortib mehmonxonalar, davlat muassasalari va zamonaviy turar-joy majmualarigacha. Har bir loyiha bino xususiyatlari, me’yoriy talablar va buyurtmachining individual ehtiyojlari inobatga olingan holda ishlab chiqiladi.`,
+      why_text: `MTECH FIRE ASIA MChJ — yong‘in xavfsizligi va yong‘inga qarshi himoya tizimlarini avtomatlashtirish sohasidagi ishonchli hamkoringiz. <br><br>
+Biz har qanday miqyosdagi va maqsaddagi obyektlar uchun innovatsion kompleks yechimlarni taklif qilamiz — sanoat korxonalari va yoqilg‘i-energetika obyektlaridan tortib mehmonxonalar, davlat muassasalari va zamonaviy turar-joy majmualarigacha. Har bir loyiha bino xususiyatlari, me’yoriy talablar va buyurtmachining individual ehtiyojlari inobatga olingan holda ishlab chiqiladi. <br><br>
+
+MTECH FIRE ASIA bilan siz nafaqat dunyoning yetakchi ishlab chiqaruvchilarining zamonaviy uskunalarini olasiz, balki obyektlaringiz 24/7 ishonchli himoyada ekanligiga ham amin bo‘lasiz. <br><br>
+
+Kompaniyamiz quyidagi yetakchi ishlab chiqaruvchilarning uskunalarini o‘rnatadi: <br><br>
+• Oshxona yong‘inga qarshi tizimi Lehavot LWT (UL 300 standarti); <br>
+• Gazli yong‘in o‘chirish tizimi Pemall USA kompaniyasidan; <br>
+• Nozik suv tumanli himoya tizimlari Fogteg (Germaniya) kompaniyasidan; <br>
+• Yong‘in signalizatsiyasi tizimi MTECH UL 864 10th Edition; <br>
+• Yong‘inni aniqlovchi aspiratsion tizimlar Protec. <br>`,
     projects_title: "Bizning loyihalarimiz",
     project_1: "Islom Sivilizatsiyasi Markazi, Toshkent",
     project_2: "Energetika Vazirligi binosi, Toshkent",
@@ -298,3 +315,4 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
