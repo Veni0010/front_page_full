@@ -337,7 +337,13 @@
       Ваш браузер не поддерживает видео.
     </video>
 </h>
-	 <button id="soundToggle">🔇</button>
+	 <button class="sound-toggle" id="soundToggle" aria-label="Toggle sound">
+                   <input type="range" min="0" max="1" step="0.01" value="1" id="volumeSlider" class="volume-slider">
+    <!-- Иконка "звук выкл." -->
+    <svg id="soundIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M16.5 12L19 14.5L20.5 13L18 10.5L20.5 8L19 6.5L16.5 9L14 6.5L12.5 8L15 10.5L12.5 13L14 14.5L16.5 12ZM11 5L6 9H3V15H6L11 19V5Z"/>
+    </svg>
+  </button>
   </div>
   <h2 class="header_title second" data-translate="title2">«ВАША БЕЗОПАСНОСТЬ – НАША ПРОФЕССИЯ» 
                 </div>
