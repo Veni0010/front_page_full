@@ -122,6 +122,7 @@ Modern fire suppression systems for your safety — your safety under reliable p
       MTECH Fire designs and installs such systems according to international NFPA and EN standards, adapting the equipment to Uzbekistan’s climate and power grid.
     `,
      product_page_title: "Products<br>Page ",
+    news_fire_safety: "New Fire Safety Requirements in Uzbekistan: What Changed in 2025<br><br>In 2025, updated standards and technical regulations in the field of fire safety came into force, approved by the Ministry of Emergency Situations of the Republic of Uzbekistan. These changes primarily affect the design and operation of automatic fire extinguishing systems in buildings with large gatherings of people, as well as in industrial and warehouse facilities.<br><br>For several categories of premises, the presence of an automatic fire extinguishing system is now mandatory — including shopping centers, hotels, server rooms, archives, pharmaceutical, and industrial warehouses. Special attention has been given to the implementation of gas and fine-spray systems, which help prevent equipment damage and reduce material losses after extinguishing.<br><br>The requirements for servicing installed systems have also been strengthened — each facility must have a valid maintenance contract with a licensed organization.<br><br>What building and business owners should do right now:<br><br>Check whether your project and installed equipment comply with the updated standards.<br><br>Conduct an audit of existing systems.<br><br>Sign a contract for regular maintenance to avoid fines and operational suspensions.<br><br>Tip: if your system was installed more than three years ago, check if it meets the new requirements. If necessary, our engineers will conduct a free audit and provide recommendations.",
   },
   uz: {
     menu_home: "Bosh sahifaga",
@@ -247,6 +248,7 @@ Zamonaviy yong‘in o‘chirish tizimlari sizning xavfsizligingiz uchun — sizn
       MTECH Fire kompaniyasi bunday tizimlarni xalqaro NFPA va EN standartlariga muvofiq loyihalashtiradi va o‘rnatadi hamda ularni O‘zbekistonning iqlimi va elektr tarmoqlariga moslashtiradi.
     `,
      product_page_title: "Mahsulotlar sahifasi",
+    news_fire_safety: "O‘zbekistonda yong‘in xavfsizligi bo‘yicha yangi talablar: 2025-yilda nimalar o‘zgardi<br><br>2025-yilda O‘zbekiston Respublikasi Favqulodda vaziyatlar vazirligi tomonidan tasdiqlangan yong‘in xavfsizligi sohasidagi yangilangan me’yorlar va texnik reglamentlar kuchga kirdi. Ushbu o‘zgarishlar, asosan, ko‘p odam to‘planadigan binolarda, shuningdek, sanoat va omborxona obyektlarida avtomatik yong‘in o‘chirish tizimlarini loyihalash va ekspluatatsiya qilishga taalluqlidir.<br><br>Endilikda ayrim toifadagi binolar uchun avtomatik yong‘in o‘chirish tizimiga ega bo‘lish majburiydir — jumladan, savdo markazlari, mehmonxonalar, server xonalari, arxivlar, farmatsevtika va ishlab chiqarish omborlari. Gazli va mayda purkagichli tizimlarni joriy etishga alohida e’tibor qaratilgan, chunki ular uskunalarning shikastlanishini oldini olish va yong‘indan keyingi moddiy zararlarni kamaytirishga yordam beradi.<br><br>O‘rnatilgan tizimlarni texnik xizmat ko‘rsatish talablari ham kuchaytirildi — har bir obyekt litsenziyaga ega tashkilot bilan amal qiluvchi texnik xizmat shartnomasiga ega bo‘lishi kerak.<br><br>Binolar va biznes egalari hozirda quyidagilarni amalga oshirishlari muhim:<br><br>Loyiha va o‘rnatilgan uskunalar yangilangan me’yorlarga mos kelishini tekshirish.<br><br>Mavjud tizimlarni auditdan o‘tkazish.<br><br>Jarimalar va faoliyat to‘xtatilishining oldini olish uchun muntazam texnik xizmat ko‘rsatish bo‘yicha shartnoma tuzish.<br><br>Maslahat: agar sizning tizimingiz uch yildan ortiq vaqt oldin o‘rnatilgan bo‘lsa, u yangi talablarga mos kelishini tekshiring. Zarur hollarda, bizning muhandislarimiz bepul audit o‘tkazib, tavsiyalar beradilar.",
   }
 };
 
@@ -321,6 +323,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
