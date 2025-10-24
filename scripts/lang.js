@@ -122,7 +122,7 @@ Modern fire suppression systems for your safety — your safety under reliable p
       MTECH Fire designs and installs such systems according to international NFPA and EN standards, adapting the equipment to Uzbekistan’s climate and power grid.
     `,
      product_page_title: "Products",
-    product_page_title: "Page",
+    product_page_title2: "Page",
   },
   uz: {
     menu_home: "Bosh sahifaga",
@@ -323,6 +323,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
