@@ -26,7 +26,7 @@ We continue to grow and improve to make your world safer every day!`,
     principles_title: "Principles of Operation",
     principles_text: `Safety, reliability, support
 The main principles of an effective fire protection system are reliable equipment, timely threat detection, and professional maintenance at every stage of operation.`,
-    why_title: "Why Choose us",
+    why_title: "Why Choose Us",
     why_text: `MTECH FIRE ASIA LLC is your reliable partner in fire safety and fire protection automation. <br><br>
 We offer innovative integrated solutions that guarantee the protection of facilities of any scale and purpose — from industrial enterprises and energy sector facilities to hotels, government institutions, and modern residential complexes. Each project is designed with consideration of the building’s features, regulatory requirements, and the client’s individual needs. <br><br>
 With MTECH FIRE ASIA, you receive not only modern equipment from leading global manufacturers, but also the confidence that your facility is under reliable protection 24/7. <br><br>
@@ -315,4 +315,5 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
