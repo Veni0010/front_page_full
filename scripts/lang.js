@@ -229,7 +229,7 @@ Zamonaviy yong‘in o‘chirish tizimlari sizning xavfsizligingiz uchun — sizn
     blog_3_text: "Zamonaviy server xonalari va ma’lumot markazlari — bu biznesning yuragi. Yong‘in tufayli ish to‘xtab qolishi katta yo‘qotishlarga olib keladi, shuning uchun gazli tizimlar eng maqbul tanlovdir...",
 
     blog_read_more: "Batafsil",
-    blog_4_title: "Kompaniyamiz hayotidagi eng qiziqarli va muhim yangiliklar shu yerda. Biz o‘smoqdamiz, rivojlanmoqdamiz va yangiliklarni siz bilan birinchilardan bo‘lib baham ko‘ramiz!<br>"
+    blog_4_title: "Kompaniyamiz hayotidagi eng qiziqarli va muhim yangiliklar shu yerda. Biz o‘smoqdamiz, rivojlanmoqdamiz va yangiliklarni siz bilan birinchilardan bo‘lib baham ko‘ramiz!<br>",
     blog_4_text: "Yangiliklar sahifasiga o‘tish",
     blog_5_title: "Obyektingiz uchun yong‘inni o‘chirish tizimini qanday tanlash: amaliy qo‘llanma",
     blog_5_text: "Yong‘in xavfsizligi — bu 'barchaga bir xil' yechim emas. Har bir obyekt individual yondashuvni talab qiladi...",
@@ -327,6 +327,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
