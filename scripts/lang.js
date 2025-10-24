@@ -71,7 +71,7 @@ Modern fire suppression systems for your safety — your safety under reliable p
     team_engineer_position: "Chief Engineer",
     team_manager_text: "Responsible for organizational processes and project coordination.<br>Her role is to synchronize the team, timelines, and resources to ensure stability and results.",
     team_manager_name: "Nicole Elieva",
-    team_manager_position: "Head of Regional and International Projects",
+    team_manager_position: "Head of Regional and<br> International Projects",
     footer_services: "Services",
     footer_equipment: "Equipment",
     footer_projects: "Projects",
@@ -194,7 +194,7 @@ Zamonaviy yong‘in o‘chirish tizimlari sizning xavfsizligingiz uchun — sizn
     team_engineer_position: "Bosh muhandis",
     team_manager_text: "Tashkiliy jarayonlar va loyihalarni muvofiqlashtirish uchun javobgar.<br>Uning vazifasi — jamoa, muddatlar va resurslarni muvofiqlashtirib, barqarorlik va natijani ta’minlash.",
     team_manager_name: "Nicole Elieva",
-    team_manager_position: "Hududiy va xalqaro loyihalar rahbari",
+    team_manager_position: "Hududiy va xalqaro<br> loyihalar rahbari",
     footer_services: "Xizmatlar",
     footer_equipment: "Uskunalar",
     footer_projects: "Loyihalar",
@@ -317,6 +317,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
