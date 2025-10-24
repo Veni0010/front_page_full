@@ -4,7 +4,7 @@ const translations = {
     menu_services: "Services",
     menu_equipment: "Equipment",
     menu_projects: "Projects",
-    menu_documents: "Documents & Certificates",
+    menu_documents: "Certificates",
     menu_about: "About Us",
     menu_materials: "Useful Materials",
     menu_news: "News and useful materials",
@@ -126,7 +126,7 @@ Modern fire suppression systems for your safety — your safety under reliable p
     menu_services: "Xizmatlar",
     menu_equipment: "Jihozlar",
     menu_projects: "Loyihalar",
-    menu_documents: "Hujjatlar va sertifikatlar",
+    menu_documents: "Sertifikatlar",
     menu_about: "Biz haqimizda",
     menu_materials: "Foydali materiallar",
     menu_news: "Yangiliklar va foydali materiallar",
@@ -317,6 +317,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
