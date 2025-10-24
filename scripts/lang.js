@@ -62,13 +62,13 @@ Our company installs equipment from leading manufacturers:<br><br>
 • Protec aspirating smoke detection systems.<br><br>
 Modern fire suppression systems for your safety — your safety under reliable protection.`,
     team_title: "Key Staff Members",
-    team_ceo_text: "General Director<br>Leads the company since its founding.<br>Under his leadership, the company has become one of the leaders in fire safety systems.<br>Strategic vision and impeccable reputation — the foundation of our partners' trust.",
+    team_ceo_text: "Leads the company since its founding.<br>Under his leadership, the company has become one of the leaders in fire safety systems.<br>Strategic vision and impeccable reputation — the foundation of our partners' trust.",
     team_ceo_name: "Rakhmatullaev Erkin",
     team_ceo_position: "General Director",
-    team_engineer_text: "Chief Engineer<br>Has been with the company for over 5 years with more than 30 successfully completed projects.<br>Responsible for technical excellence, reliability, and innovation in every solution.",
+    team_engineer_text: "Has been with the company for over 5 years with more than 30 successfully completed projects.<br>Responsible for technical excellence, reliability, and innovation in every solution.",
     team_engineer_name: "Nermatov Shavkat",
     team_engineer_position: "Chief Engineer",
-    team_manager_text: "Head of Regional and International Projects<br>Responsible for organizational processes and project coordination.<br>Her role is to synchronize the team, timelines, and resources to ensure stability and results.",
+    team_manager_text: "Responsible for organizational processes and project coordination.<br>Her role is to synchronize the team, timelines, and resources to ensure stability and results.",
     team_manager_name: "Nicole Elieva",
     team_manager_position: "Project Manager",
     footer_services: "Services",
@@ -184,13 +184,13 @@ Kompaniyamiz quyidagi yetakchi ishlab chiqaruvchilarning uskunalarini o‘rnatad
 • Protec aspiratsion yong‘in aniqlash tizimlari.<br><br>
 Zamonaviy yong‘in o‘chirish tizimlari sizning xavfsizligingiz uchun — sizning xavfsizligingiz ishonchli himoyada.`,
     team_title: "Asosiy xodimlar",
-    team_ceo_text: "Bosh direktor<br>Kompaniyani tashkil topganidan beri boshqarib keladi.<br>Uning rahbarligida kompaniya yong‘in xavfsizligi tizimlari sohasida yetakchilardan biriga aylandi.<br>Strategik qarash va mukammal obro‘ — hamkorlarimiz ishonchining asosi.",
+    team_ceo_text: "Kompaniyani tashkil topganidan beri boshqarib keladi.<br>Uning rahbarligida kompaniya yong‘in xavfsizligi tizimlari sohasida yetakchilardan biriga aylandi.<br>Strategik qarash va mukammal obro‘ — hamkorlarimiz ishonchining asosi.",
     team_ceo_name: "Raxmatullaev Erkin",
     team_ceo_position: "Bosh direktor",
-    team_engineer_text: "Bosh muhandis<br>Kompaniyada 5 yildan ortiq ishlaydi, 30 dan ortiq muvaffaqiyatli loyihalarni amalga oshirgan.<br>Texnik mukammallik, ishonchlilik va innovatsiyalar uchun javobgar.",
+    team_engineer_text: "Kompaniyada 5 yildan ortiq ishlaydi, 30 dan ortiq muvaffaqiyatli loyihalarni amalga oshirgan.<br>Texnik mukammallik, ishonchlilik va innovatsiyalar uchun javobgar.",
     team_engineer_name: "Nermatov Shavkat",
     team_engineer_position: "Bosh muhandis",
-    team_manager_text: "Hududiy va xalqaro loyihalar rahbari<br>Tashkiliy jarayonlar va loyihalarni muvofiqlashtirish uchun javobgar.<br>Uning vazifasi — jamoa, muddatlar va resurslarni muvofiqlashtirib, barqarorlik va natijani ta’minlash.",
+    team_manager_text: "Tashkiliy jarayonlar va loyihalarni muvofiqlashtirish uchun javobgar.<br>Uning vazifasi — jamoa, muddatlar va resurslarni muvofiqlashtirib, barqarorlik va natijani ta’minlash.",
     team_manager_name: "Nicole Elieva",
     team_manager_position: "Loyihalar bo‘yicha rahbar",
     footer_services: "Xizmatlar",
@@ -315,5 +315,6 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
