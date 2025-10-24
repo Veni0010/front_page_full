@@ -18,7 +18,7 @@ const translations = {
       Since 2018, our company has specialized in the design, supply, and installation of modern fire extinguishing systems. We work according to international standards and strictly comply with all regulations to guarantee our clients reliable protection of people, property, and business. <br><br>
       We offer solutions for projects of any scale — from office buildings and hotels to industrial enterprises and government institutions. Each system is selected individually, taking into account the specifics of the site and increased safety requirements. <br><br>
       Our priority is to give you peace of mind and confidence that, in case of emergency, the system will work flawlessly.
-      Safety. Reliability. Compliance with standards.
+      
     `,
     market_title: "7 years in the Uzbek market",
     market_text: `For 7 years, we have been ensuring fire safety across Uzbekistan — from residential buildings to large industrial sites.
@@ -141,7 +141,7 @@ Modern fire suppression systems for your safety — your safety under reliable p
       2018-yildan beri kompaniyamiz zamonaviy yong‘in o‘chirish tizimlarini loyihalash, yetkazib berish va o‘rnatishga ixtisoslashgan. Biz xalqaro standartlarga muvofiq ishlaymiz va barcha me’yoriy talablarni qat’iy bajarib, mijozlarimizga insonlar, mulk va biznesni ishonchli himoya qilishni kafolatlaymiz. <br><br>
       Biz har qanday miqyosdagi obyektlar uchun yechimlar taklif etamiz — ofis binolari va mehmonxonalardan tortib, sanoat korxonalari va davlat muassasalarigacha. Har bir tizim obyektning o‘ziga xos xususiyatlari va xavfsizlik talablarini inobatga olgan holda individual tarzda tanlanadi. <br><br>
       Bizning ustuvor vazifamiz — favqulodda holatda tizim mukammal ishlashiga ishonch va xotirjamlikni ta’minlashdir.
-      Xavfsizlik. Ishonchlilik. Me’yorlarga muvofiqlik.
+     
     `,
     market_title: "O‘zbekiston bozorida 7 yil",
     market_text: `7 yildan beri biz butun O‘zbekiston bo‘ylab — turar joylardan tortib yirik ishlab chiqarish korxonalarigacha — yong‘in xavfsizligini ta’minlab kelmoqdamiz.
@@ -319,6 +319,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
