@@ -1,5 +1,6 @@
 const translations = {
   en: {
+     menu_home: "Home",
      menu_subtitle: "Product Page",
     menu_services: "Services",
     menu_equipment: "Equipment",
@@ -122,6 +123,7 @@ Modern fire suppression systems for your safety — your safety under reliable p
     `,
   },
   uz: {
+    menu_home: "Bosh sahifaga",
     menu_subtitle: "Mahsulot sahifasi",
     menu_services: "Xizmatlar",
     menu_equipment: "Jihozlar",
@@ -317,6 +319,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
