@@ -121,6 +121,7 @@ Modern fire suppression systems for your safety — your safety under reliable p
       In recent years, fine mist systems have become the preferred solution for new facilities that require both efficiency and delicacy.<br><br>
       MTECH Fire designs and installs such systems according to international NFPA and EN standards, adapting the equipment to Uzbekistan’s climate and power grid.
     `,
+     product_page_title_en: "Products Page",
   },
   uz: {
     menu_home: "Bosh sahifaga",
@@ -245,6 +246,7 @@ Zamonaviy yong‘in o‘chirish tizimlari sizning xavfsizligingiz uchun — sizn
       So‘nggi yillarda nozik purkagich tizimlari samaradorlik va noziklik muvozanati talab qilinadigan yangi obyektlar uchun afzal tanlovga aylanmoqda.<br><br>
       MTECH Fire kompaniyasi bunday tizimlarni xalqaro NFPA va EN standartlariga muvofiq loyihalashtiradi va o‘rnatadi hamda ularni O‘zbekistonning iqlimi va elektr tarmoqlariga moslashtiradi.
     `,
+     product_page_title_uz: "Mahsulotlar sahifasi"
   }
 };
 
@@ -319,6 +321,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
