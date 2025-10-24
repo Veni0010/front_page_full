@@ -62,6 +62,7 @@ Our company installs equipment from leading manufacturers:<br><br>
 • Protec aspirating smoke detection systems.<br><br>
 Modern fire suppression systems for your safety — your safety under reliable protection.`,
     team_title: "Key Staff Members",
+    team_title2: "Safety. Reliability. Compliance with standards.",
     team_ceo_text: "Leads the company since its founding.<br>Under his leadership, the company has become one of the leaders in fire safety systems.<br>Strategic vision and impeccable reputation — the foundation of our partners' trust.",
     team_ceo_name: "Rakhmatullaev Erkin",
     team_ceo_position: "General Director",
@@ -184,6 +185,7 @@ Kompaniyamiz quyidagi yetakchi ishlab chiqaruvchilarning uskunalarini o‘rnatad
 • Protec aspiratsion yong‘in aniqlash tizimlari.<br><br>
 Zamonaviy yong‘in o‘chirish tizimlari sizning xavfsizligingiz uchun — sizning xavfsizligingiz ishonchli himoyada.`,
     team_title: "Asosiy xodimlar",
+    team_title2: "Xavfsizlik. Ishonchlilik. Me’yorlarga muvofiqlik.",
     team_ceo_text: "Kompaniyani tashkil topganidan beri boshqarib keladi.<br>Uning rahbarligida kompaniya yong‘in xavfsizligi tizimlari sohasida yetakchilardan biriga aylandi.<br>Strategik qarash va mukammal obro‘ — hamkorlarimiz ishonchining asosi.",
     team_ceo_name: "Raxmatullaev Erkin",
     team_ceo_position: "Bosh direktor",
@@ -315,6 +317,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
