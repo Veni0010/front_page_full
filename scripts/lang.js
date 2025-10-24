@@ -101,8 +101,8 @@ Modern fire suppression systems for your safety — your safety under reliable p
     blog_3_text: "Modern server rooms and data centers are the heart of any business. Fires can cause downtime, data loss, and financial damage, so gas suppression systems are the best choice...",
 
     blog_read_more: "Read more",
-    blog_4_title: "Fire extinguishing system maintenance: how often and why it's needed",
-    blog_4_text: "Any fire extinguishing system is not just an installation — it's an engineering organism that requires regular maintenance...",
+    blog_4_title: "All the most interesting and important updates from the life of our company are here. We are growing, evolving, and sharing news with you first!",
+    blog_4_text: "Go to the news page",
     blog_5_title: "How to choose a fire extinguishing system for your facility: a practical guide",
     blog_5_text: "Fire safety is not a one-size-fits-all solution. Every facility requires an individual approach...",
     blog_6_title: "Why water mist systems are the future of fire protection",
@@ -229,8 +229,8 @@ Zamonaviy yong‘in o‘chirish tizimlari sizning xavfsizligingiz uchun — sizn
     blog_3_text: "Zamonaviy server xonalari va ma’lumot markazlari — bu biznesning yuragi. Yong‘in tufayli ish to‘xtab qolishi katta yo‘qotishlarga olib keladi, shuning uchun gazli tizimlar eng maqbul tanlovdir...",
 
     blog_read_more: "Batafsil",
-    blog_4_title: "Yong‘inni o‘chirish tizimlarini texnik xizmat ko‘rsatish: qanchalik tez-tez va nima uchun kerak",
-    blog_4_text: "Har qanday yong‘in o‘chirish tizimi — bu oddiy o‘rnatma emas, balki doimiy texnik xizmatni talab qiladigan murakkab mexanizm...",
+    blog_4_title: "Kompaniyamiz hayotidagi eng qiziqarli va muhim yangiliklar shu yerda. Biz o‘smoqdamiz, rivojlanmoqdamiz va yangiliklarni siz bilan birinchilardan bo‘lib baham ko‘ramiz!<br>"
+    blog_4_text: "Yangiliklar sahifasiga o‘tish",
     blog_5_title: "Obyektingiz uchun yong‘inni o‘chirish tizimini qanday tanlash: amaliy qo‘llanma",
     blog_5_text: "Yong‘in xavfsizligi — bu 'barchaga bir xil' yechim emas. Har bir obyekt individual yondashuvni talab qiladi...",
     blog_6_title: "Nima uchun mayda purkagichli tizimlar — yong‘in himoyasining kelajagi",
@@ -327,6 +327,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
