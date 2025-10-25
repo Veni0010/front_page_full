@@ -38,6 +38,33 @@
 //     }
 //   });
 // });
+ const slides = document.querySelectorAll('.slide');
+  const topLine = document.querySelector('.progress-line.top');
+  const bottomLine = document.querySelector('.progress-line.bottom');
+  let index = 0;
+
+  // Запускаем линии
+  setTimeout(() => {
+    topLine.style.width = '100%';
+    bottomLine.style.width = '100%';
+  }, 100);
+
+  // Меняем изображения каждые 0.5 секунды
+  const slideInterval = setInterval(() => {
+    slides[index].classList.remove('active');
+    index = (index + 1) % slides.length;
+    slides[index].classList.add('active');
+  }, 500);
+
+  // После 3 секунд скрываем прелоадер
+  setTimeout(() => {
+    clearInterval(slideInterval);
+    document.getElementById('preloader').style.transition = 'opacity 0.6s ease';
+    document.getElementById('preloader').style.opacity = '0';
+    setTimeout(() => document.getElementById('preloader').style.display = 'none', 600);
+    document.body.style.overflow = 'auto';
+  }, 3000);
+
 document.addEventListener('mousemove', e => {
 	document.body.style.cssText = `--move-x: ${e.clientX}px; --move-y: ${e.clientY}px;`
 })
@@ -409,3 +436,4 @@ const video = document.getElementById('bgVideo');
   volumeSlider.addEventListener('input', () => {
     video.volume = volumeSlider.value;
   });
+
