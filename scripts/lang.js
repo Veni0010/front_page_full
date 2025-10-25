@@ -35,7 +35,7 @@ With MTECH FIRE ASIA, you receive not only modern equipment from leading global 
 Our company installs equipment from top manufacturers: <br><br>
 • Kitchen fire suppression system Lehavot LWT (UL 300 standard); <br>
 • Gas fire suppression system by Pemall USA; <br>
-• Fine water mist protection systems by Fogteg (Germany); <br>
+• Fine water mist protection systems by Fogtec (Germany); <br>
 • Fire alarm systems MTECH UL 864 10th Edition; <br>
 • Aspirating fire detection systems Protec. <br>`,
     projects_title: "Our Projects",
@@ -58,7 +58,7 @@ With LLC “MTECH FIRE ASIA”, you receive not only modern equipment from leadi
 Our company installs equipment from leading manufacturers:<br><br>
 • Kitchen fire suppression Lehavot LWT (UL 300 standard);<br><br>
 • Gas fire suppression systems by Pemall USA;<br><br>
-• Fine water mist protection systems by Fogteg (Germany);<br><br>
+• Fine water mist protection systems by Fogtec (Germany);<br><br>
 • MTECH fire alarm systems UL 864 10th Edition;<br><br>
 • Protec aspirating smoke detection systems.<br><br>
 Modern fire suppression systems for your safety — your safety under reliable protection.`,
@@ -333,6 +333,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
