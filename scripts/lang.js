@@ -166,7 +166,7 @@ MTECH FIRE ASIA bilan siz nafaqat dunyoning yetakchi ishlab chiqaruvchilarining 
 Kompaniyamiz quyidagi yetakchi ishlab chiqaruvchilarning uskunalarini o‘rnatadi: <br><br>
 • Oshxona yong‘inga qarshi tizimi Lehavot LWT (UL 300 standarti); <br>
 • Gazli yong‘in o‘chirish tizimi Pemall USA kompaniyasidan; <br>
-• Nozik suv tumanli himoya tizimlari Fogteg (Germaniya) kompaniyasidan; <br>
+• Nozik suv tumanli himoya tizimlari Fogtec (Germaniya) kompaniyasidan; <br>
 • Yong‘in signalizatsiyasi tizimi MTECH UL 864 10th Edition; <br>
 • Yong‘inni aniqlovchi aspiratsion tizimlar Protec. <br>`,
     projects_title: "Bizning loyihalarimiz",
@@ -189,7 +189,7 @@ Biz faqat uskunalarni o‘rnatmaymiz — biz hayotni himoya qiluvchi va tinchlik
 Kompaniyamiz quyidagi yetakchi ishlab chiqaruvchilarning uskunalarini o‘rnatadi:<br><br>
 • UL 300 standartidagi Lehavot LWT oshxona yong‘in o‘chirish tizimi;<br><br>
 • Pemall USA gazli yong‘in o‘chirish tizimlari;<br><br>
-• Fogteg (Germaniya) suv tumanli yong‘in himoya tizimlari;<br><br>
+• Fogtec (Germaniya) suv tumanli yong‘in himoya tizimlari;<br><br>
 • MTECH UL 864 10th Edition yong‘in signalizatsiya tizimlari;<br><br>
 • Protec aspiratsion yong‘in aniqlash tizimlari.<br><br>
 Zamonaviy yong‘in o‘chirish tizimlari sizning xavfsizligingiz uchun — sizning xavfsizligingiz ishonchli himoyada.`,
@@ -333,6 +333,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
