@@ -10,6 +10,7 @@ const translations = {
     menu_materials: "Useful Materials",
     menu_news: "News and useful materials",
     menu_contacts: "Contacts",
+    title_sertification: "Certification page",
     title: "Advanced fire suppression systems to ensure your safety and compliance with standards",
     title2: "«YOUR SAFETY IS OUR PROFESSION»",
     description: "We’re happy to see you here. Discover new opportunities with us.",
@@ -140,6 +141,7 @@ Modern fire suppression systems for your safety — your safety under reliable p
     menu_materials: "Foydali materiallar",
     menu_news: "Yangiliklar va foydali materiallar",
     menu_contacts: "Aloqa",
+     title_sertification: "Sertifikatlash sahifasi",
     title: "Sizning xavfsizligingiz uchun va barcha talablarni bajaradigan zamonaviy yong‘in tizimlari.",
     title2: "«SIZNING XAVFSIZLIGINGIZ – BIZNING KASBIMIZ»",
     description: "Sizning xavfsizligingiz uchun va barcha talablarni bajaradigan zamonaviy yong‘in tizimlari.",
@@ -333,6 +335,7 @@ document.querySelectorAll('.lang-options [data-lang]').forEach(btn => {
 // --- Устанавливаем сохранённый язык ---
 const savedLang = localStorage.getItem('lang') || 'ru';
 setLanguage(savedLang);
+
 
 
 
